@@ -13,7 +13,7 @@ fr = ttk.Frame(root, padding=10)
 fr.pack(fill="both", expand=True)
 ##################Var definitions#######################
 version = StringVar()
-version.set("alpha-GUI_dev")###Current Version Var (for the version label)
+version.set("alpha-GUI_dev")###Current Version var (for the version label)
 ####################Widget Creation############################
 ttk.Style().configure("main.TLabel",
                       foreground="#000000",
